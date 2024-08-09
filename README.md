@@ -23,8 +23,8 @@ Danny seeks to answer the following key business questions:
 ## Case Study Tasks
 
 ### 1. Data Cleaning Steps
-- Handling missing values.
-- Removing duplicates.
+- changing the datatype of the column.
+- adding new column wherever required.
 - Standardizing date formats.
 - Ensuring consistency in categorical values.
 
