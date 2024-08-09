@@ -1,42 +1,56 @@
-# Case Study Danny-Ma--5-Data-Mart-SQL
-Introduction
+# Data Mart Sales Analysis Case Study
 
-Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce - Danny is asking for your support to analyse his sales performance.
+## Introduction
 
-In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
+Danny’s latest venture, Data Mart, is an international online supermarket specializing in fresh produce. Following large-scale supply changes in June 2020, where all products began using sustainable packaging, Danny needs help analyzing the impact of these changes on sales performance.
 
-Danny needs your help to quantify the impact of this change on the sales performance for Data Mart and it’s separate business areas.
+## Problem Statement
 
-Problem Statement
+Danny seeks to answer the following key business questions:
+1. What was the quantifiable impact of the changes introduced in June 2020?
+2. Which platform, region, segment, and customer types were most impacted by this change?
+3. What strategies can be implemented for future sustainability updates to minimize impact on sales?
 
-The key business question he wants you to help him answer are the following:
+## Dataset Used
 
-What was the quantifiable impact of the changes introduced in June 2020?
-Which platform, region, segment and customer types were the most impacted by this change? What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
+- **Data Mart Operations**: International with a multi-region strategy.
+- **Platforms**: Retail and Shopify (online store).
+- **Customer Data**: Segment and demographic information.
+- **Transactions**: Count of unique purchases.
+- **Sales**: Dollar amount of purchases.
+- **Time Frame**: Weekly aggregated sales data.
 
-Dataset used
+## Case Study Tasks
 
-1.Data Mart has international operations using a multi-region strategy
-2.Data Mart has both, a retail and online platform in the form of a Shopify store front to serve their customers
-3.Customer segment and customer_type data relates to personal age and demographics information that is shared with Data Mart
-4.transactions is the count of unique purchases made through Data Mart and sales is the actual dollar amount of purchases Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
+### 1. Data Cleaning Steps
+- Handling missing values.
+- Removing duplicates.
+- Standardizing date formats.
+- Ensuring consistency in categorical values.
 
-Case study task:
-1.Data cleaning Steps
-2.Data Exploration
-3. Before and After Analysis
-4. Bonus Question 
+### 2. Data Exploration
+- Analyzing sales trends across regions and platforms.
+- Examining transaction counts and sales volumes.
+- Exploring demographic data and its impact on sales.
 
-Conclusion 
+### 3. Before and After Analysis
+- **Transaction Increase Percentage**: The number of transactions increased by 12.4%, 12.5%, and 12.6% year-over-year from 2018 to 2020.
+- **Sales by Region**: Oceania and Africa showed the highest sales, indicating strong performance.
+- **Platform Sales Comparison**: Retail sales were significantly higher compared to Shopify, despite similar transaction counts.
+- **Transaction Size Trends**: Retail’s average transaction size remained stable, while Shopify’s decreased over time.
+- **Sales Trends Around June 15, 2020**: Post-June sales saw a 9.27% reduction compared to the 12 weeks before, indicating a significant impact.
 
-1. Transaction Increase Percentage: The number of transactions increased from 2018 to 2020 by 5698, 5708, and 5711 units, reflecting approximate percentage increases of 12.4%, 12.5%, and 12.6% year-over-year.
+### 4. Bonus Question
 
-2. Sales by Region: The highest sales occurred in Oceania and Africa, indicating strong market performance in these regions.
 
-3. Platform Sales Comparison: Despite nearly identical transaction counts on Retail (8568) and Shopify (8549), Retail's sales were significantly higher, with a 95% difference in sales volume between the platforms in different months.
+## Conclusion
 
-4. Transaction Size Trends: Retail’s average transaction size remained stable around $36.56 to $36.83, while Shopify’s average transaction size decreased from $192.48 in 2018 to $179.03 in 2020, showing a declining trend.
+- **Transaction Increase**: Significant increase in transactions from 2018 to 2020.
+- **Regional Sales**: Strong performance in Oceania and Africa.
+- **Platform Insights**: Retail had higher sales despite similar transaction counts compared to Shopify.
+- **Transaction Size**: Declining trend in Shopify’s average transaction size.
+- **Post-June Impact**: Noticeable reduction in sales following the sustainability change.
+- **Demographic Insights**: Retirees and Middle Aged individuals contributed significantly to sales. The 'Unknown' demographic experienced the highest decline.
 
-5. Sales Trends Around June 15, 2020: Sales before and after June 15, 2020, exhibited minimal percentage change, but a noticeable 9.27% decrease in the 12 weeks following the date compared to the 12 weeks before, indicating a significant post-June reduction.
 
-6. Demographic Insights: Significant contributors to sales include Retirees (particularly in Families and Couples) and Middle Aged individuals (especially Families). The Unknown demographic experienced the highest decline, with considerable reductions noted in sales among these groups.
+
